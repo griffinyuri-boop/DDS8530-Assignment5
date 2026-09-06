@@ -136,7 +136,7 @@ The DAG automates the following task sequence:
 2. Run Dask processing
 3. Train and track the machine learning model with MLflow
 
-Because the local development environment uses Windows and Python 3.13, the DAG is provided as an orchestration design for deployment in an Airflow-supported environment rather than being executed natively on Windows.
+Apache Airflow 3.3.1 was installed and executed in an Ubuntu environment using WSL2. The dds8530_etl_mlops_pipeline DAG orchestrates the pandas ETL process, Dask processing, and MLflow model training in sequence. The complete workflow was successfully executed through the Airflow interface, confirming that all three pipeline tasks could be scheduled, monitored, and completed through a single orchestration workflow.
 
 ## CI/CD with GitHub Actions
 
