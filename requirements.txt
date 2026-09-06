@@ -1,0 +1,10 @@
+pandas
+dask
+pyarrow
+scikit-learn
+sqlalchemy
+requests
+flask
+joblib
+mlflow
+prometheus-client
